@@ -22,7 +22,7 @@ function updateCounters() {
   todoCount.innerHTML = uncompletedTodos;
 }
 
-  function toggleDone() {
+function toggleDone() {
   var checkbox = this;
 
   // check the checked status of the checkbox
